@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+/* Navbar CSS*/
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #003285;  
+  box-shadow: 0  1px 8px #2A629A;
+}
+
+.navbar ul{
+margin:0;
+}
+
+.navbar ul li{
+display : inline-block;
+list-style:none;
+padding : 10px 20px;
+}
+
+.navbar ul li a{
+color: #FF7F3E;
+text-align: center;
+font-size: 20px;
+text-decoration: none;
+}
+
+.navbar ul li a:hover{
+color: #FFDA78;
+}
+
+.active{
+color: #E6FF94   !important;
+}
+
+
+/* Login page css*/
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #E1ECC8;
+}
+
+.login-inner{
+  display: flex;
+  padding :25px;
+  flex-direction: column;
+  align-items: flex-start ;
+  justify-content: center; 
+  width: 300px;
+  height: 300px;
+  background-color: #B5C18E;
+  border-radius: 10px;
+}
+.login-inner form{
+  width : 100%;
+}
+
+.login-inner h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.login-inner button{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #35ca62;
+  border:none;  
+  border-radius: 15px;
+}
+
+.input-group{
+  width:100%;
+  text-align: left;
+}
+
+.input-group input{
+  width: 93%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+
